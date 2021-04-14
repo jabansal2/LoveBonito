@@ -102,7 +102,7 @@ public class CardsPage {
 		}
 
 		System.out.println("Proceeding for validation of card added");
-		driver.navigate().refresh();
+//		driver.navigate().refresh();
 		Thread.sleep(2500);
 		/**Have to give this as the new card added adds with class attribute as "list-card js-member-droppable active-card ui-droppable"**
 			**and takes 3-5 seconds to change to the class value for existing cards***/
