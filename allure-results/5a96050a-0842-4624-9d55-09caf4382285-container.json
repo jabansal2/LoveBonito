@@ -1,0 +1,1 @@
+{"uuid":"5a96050a-0842-4624-9d55-09caf4382285","name":"TestScripts.TestCases.clean","description":"","start":1618353355733,"stop":1618353356513,"children":["f793716e-ec0a-44fd-a31a-da2e382d77fe"],"afters":[{"name":"clean","status":"passed","stage":"finished","description":"","start":1618353355733,"stop":1618353356513}]}

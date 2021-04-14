@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test parallel="none" name="BrowserUiInterfaceTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestScripts.TestCases">
+        <methods>
+          <include name="testMainPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestScripts.TestCases -->
+    </classes>
+  </test> <!-- BrowserUiInterfaceTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

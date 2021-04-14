@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74712" started-at="2021-04-14T02:36:53Z" finished-at="2021-04-14T02:38:08Z">
+    <groups>
+    </groups>
+    <test name="Headless" duration-ms="74712" started-at="2021-04-14T02:36:53Z" finished-at="2021-04-14T02:38:08Z">
+      <class name="TestScripts.TestCases">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:TestScripts.TestCases@d6e7bab]" name="setUp" is-config="true" duration-ms="5243" started-at="2021-04-13T22:36:54Z" finished-at="2021-04-13T22:36:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMainPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.TestCases@d6e7bab]" name="testMainPage" duration-ms="66451" started-at="2021-04-13T22:36:59Z" data-provider="data-provider" finished-at="2021-04-13T22:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iamtrello128@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FirstBoard]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NewCard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMainPage -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:TestScripts.TestCases@d6e7bab]" name="clean" is-config="true" duration-ms="1684" started-at="2021-04-13T22:38:06Z" finished-at="2021-04-13T22:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- TestScripts.TestCases -->
+    </test> <!-- Headless -->
+  </suite> <!-- Suite -->
+</testng-results>

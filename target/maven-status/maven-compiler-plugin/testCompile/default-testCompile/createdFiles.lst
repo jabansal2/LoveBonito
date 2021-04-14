@@ -1,0 +1,7 @@
+PageObjects\HomePage.class
+TestScripts\TestCases.class
+PageObjects\CardsPage.class
+resources\AppTest.class
+PageObjects\MainPage.class
+PageObjects\LoginPage.class
+resources\ReadTestDataFromExcel.class
